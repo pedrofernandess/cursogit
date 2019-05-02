@@ -39,15 +39,15 @@ namespace MatrizExe
                         {
                             Console.WriteLine("Numero a esquerda: "+ matr[i,j-1]);
                         }
-                        if (j < n - 1)
+                        if (j < c - 1)
                         {
                             Console.WriteLine("Numero a Direita: "+ matr[i,j + 1]);
                         }
-                        if (j > 0)
+                        if (i > 0)
                         {
                             Console.WriteLine("Numero acima: " + matr[i -1,j]);
                         }
-                        if (i < c - 1)
+                        if (i < n - 1)
                         {
                             Console.WriteLine("Numero abaixo: "+ matr[i + 1,j]);
                         }
